@@ -1,0 +1,13 @@
+prefix=C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/install/x64-Debug (domyślnie)
+exec_prefix=C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/install/x64-Debug (domyślnie)
+libdir=C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/install/x64-Debug (domyślnie)/lib
+sharedlibdir=C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/install/x64-Debug (domyślnie)/lib
+includedir=C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/install/x64-Debug (domyślnie)/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.7
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

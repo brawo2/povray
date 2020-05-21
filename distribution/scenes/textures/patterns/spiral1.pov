@@ -25,7 +25,7 @@ global_settings {assumed_gamma 1.0 }
 
 #declare T2=
  texture{
-   pigment{White}
+   pigment{Green}
    normal{
      spiral1 5, 1.6
      scale 0.24

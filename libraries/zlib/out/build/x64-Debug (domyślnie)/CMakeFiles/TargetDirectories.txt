@@ -1,0 +1,10 @@
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/zlib.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/zlibstatic.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/example.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/list_install_components.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/minigzip.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/rebuild_cache.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/test.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/install.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/edit_cache.dir
+C:/Users/brawo/OneDrive/Pulpit/ericssonProjekt/povray/libraries/zlib/out/build/x64-Debug (domyślnie)/CMakeFiles/install/local.dir
