@@ -1452,6 +1452,11 @@ void Parser::Parse_Pattern (PATTERN_T *New, BlendMapTypeId TPat_Type)
             New->pattern = PatternPtr(new RadialPattern());
         END_CASE
 
+        CASE(POLAR_TOKEN)
+            New->Type = GENERIC_PATTERN;
+        New->pattern = PatternPtr(new PolarPattern());
+        END_CASE
+
         CASE (CRACKLE_TOKEN)
             New->Type = GENERIC_PATTERN;
             New->pattern = PatternPtr(new CracklePattern());
@@ -4853,6 +4858,10 @@ void Parser::Parse_PatternFunction(TPATTERN *New)
         CASE (RADIAL_TOKEN)
             New->Type = GENERIC_PATTERN;
             New->pattern = PatternPtr(new RadialPattern());
+        END_CASE
+        CASE(POLAR_TOKEN)
+            New->Type = GENERIC_PATTERN;
+            New->pattern = PatternPtr(new PolarPattern());
         END_CASE
 
         CASE (CRACKLE_TOKEN)

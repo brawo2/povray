@@ -8128,6 +8128,13 @@ DBL RadialPattern::EvaluateRaw(const Vector3d& EPoint, const Intersection *pIsec
     return(value);
 }
 
+DBL PolarPattern::EvaluateRaw(const Vector3d& EPoint, const Intersection* pIsection, const Ray* pRay, TraceThreadData* pThread) const
+{
+    return atan(EPoint[Y] / (sqrt(EPoint[X] * EPoint[X] + EPoint[Z] * EPoint[Z]))) / M_PI+0.5;
+
+}
+
+
 
 /*****************************************************************************
 *
@@ -8434,6 +8441,7 @@ DBL Spiral1Pattern::EvaluateRaw(const Vector3d& EPoint, const Intersection *pIse
     }
 
     return(z + rad + (DBL)arms * phi / TWO_M_PI + turb_val);
+  
 }
 
 

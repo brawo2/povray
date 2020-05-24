@@ -442,6 +442,7 @@ const RESERVED_WORD Reserved_Words[] = {
     { QUICK_COLOUR_TOKEN,           "quick_colour" },
     { QUILTED_TOKEN,                "quilted" },
 
+    { POLAR_TOKEN,                  "polar" },
     { RADIAL_TOKEN,                 "radial" },
     { RADIANS_TOKEN,                "radians" },
     { RADIOSITY_TOKEN,              "radiosity" },
@@ -616,6 +617,7 @@ const RESERVED_WORD Reserved_Words[] = {
     { WIDTH_TOKEN,                  "width" },
     { WOOD_TOKEN,                   "wood" },
     { WRINKLES_TOKEN,               "wrinkles" },
+    
     { WRITE_TOKEN,                  "write" },
 
     { X_TOKEN,                      "x" },

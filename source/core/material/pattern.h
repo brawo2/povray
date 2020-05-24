@@ -703,6 +703,13 @@ struct RadialPattern final : public ContinuousPattern
     virtual ColourBlendMapConstPtr GetDefaultBlendMap() const override;
 };
 
+struct PolarPattern final : public ContinuousPattern
+{
+    virtual PatternPtr Clone() const override { return BasicPattern::Clone(*this); }
+    virtual DBL EvaluateRaw(const Vector3d& EPoint, const Intersection* pIsection, const Ray* pRay, TraceThreadData* pThread) const override;
+};
+
+
 /// Implements the `ripples` pattern.
 struct RipplesPattern final : public ContinuousPattern
 {

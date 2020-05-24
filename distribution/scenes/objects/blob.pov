@@ -30,7 +30,23 @@ blob {
    component 1.0, 1.0, <-0.375, 0.64952, 0>
    component 1.0, 1.0, <-0.375, -0.64952, 0>
 
-   pigment { color rgb< 0.7,0,0.05> }
+   pigment { polar  color_map {
+		[0.0  color White]
+        [0.2  color White]
+        [0.2  color Green]
+        [0.3  color Green]
+        [0.3  color White]
+        [0.5  color White]
+        [0.5  color Red]
+        [0.7  color Red]
+        [0.7  color White]
+        [0.8  color White]
+        [0.8  color Green]
+        [0.9  color Green]
+        [0.9  color White]
+        [1.0  color White]
+      }
+	  scale 0.25 }
    finish {
       ambient 0.1
       diffuse 0.7
